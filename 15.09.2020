@@ -1,0 +1,26 @@
+using System;   
+public class Blank {
+	
+	String name = "";
+	int age = 0;
+	String hobbie = "";
+	String sex = "";
+	double ageDouble = 1.1; 
+	
+		
+	public void Main()	 {
+		
+		Console.WriteLine("Имя: ");
+		name = Console.ReadLine();
+		Console.WriteLine("Возраст: ");
+		age =  Int32.Parse(Console.ReadLine());
+		ageDouble = age;
+		Console.WriteLine("Хобби: ");
+		hobbie = Console.ReadLine();
+		Console.WriteLine("Пол: ");
+		sex = Console.ReadLine();
+		
+		Console.Write("Ваше имя " + name + " Ваш возраст " + age + " Ваше Хобби " + hobbie + " Ваш пол " + sex);
+		
+		
+	}
